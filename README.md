@@ -1,5 +1,5 @@
 
-![GSoC 2025](gsoc.png)
+![GSoC 2025](files/gsoc.png)
 
 <div align="center">
 
