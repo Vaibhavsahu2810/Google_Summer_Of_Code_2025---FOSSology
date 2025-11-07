@@ -1,13 +1,27 @@
 
-# Google Summer of Code 2025 — FOSSology Project Report
+![GSoC 2025](gsoc.png)
 
-## 1. Basic Details
+<div align="center">
+
+![GSoC Badge](https://img.shields.io/badge/Google%20Summer%20of%20Code-2025-fbbc04?style=for-the-badge&logo=googlescholar&logoColor=white&labelColor=ea4335)
+![FOSSology](https://img.shields.io/badge/FOSSology-Open%20Source-4285f4?style=for-the-badge&logo=github&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-0f9d58?style=for-the-badge&logo=checkmarx&logoColor=white)
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=1F6FEB&center=true&vCenter=true&random=false&width=800&lines=Google+Summer+of+Code+2025;FOSSology+Project+Report;OSSelot+Integration+%26+Performance+Boost)](https://git.io/typing-svg)
+
+</div>
+
+# Google Summer of Code 2025 — FOSSology Project Report 
+
+## 1. 📈 Basic Details
 
 **Project Title:** Reuse of clearing decisions using reports from OSSelot project and improve stability and performance of scancode integration using multi threads
 
-**Author:** [Vaibhav Sahu](https://github.com/Vaibhavsahu2810)
+**Author:** [Vaibhav Sahu](https://github.com/Vaibhavsahu2810) 
+![Profile Views](https://komarev.com/ghpvc/?username=Vaibhavsahu2810&style=flat-square&color=blue)
 
-**Organization:** FOSSology
+**Organization:** FOSSology 
+<img src="https://img.shields.io/badge/FOSSology-License%20Compliance-green?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDE1Ljc0TDEyIDIyTDEwLjkxIDE1Ljc0TDQgOUwxMC45MSA4LjI2TDEyIDJaIiBmaWxsPSIjZmZmZmZmIi8+Cjwvc3ZnPgo=" alt="FOSSology" />
 
 **Mentors:**
 - [Jan Altenberg](https://github.com/JanAltenberg)
@@ -19,11 +33,11 @@
 
 **Project Duration:** May 2025 - Nov 2025
 
-## 2. Abstract
+## 2. 📜 Abstract
 
 This Google Summer of Code 2025 project enhanced FOSSology by implementing OSSelot-compatible export functionality, enabling clearing decision reuse from OSSelot reports, improving ScanCode performance through multithreading, and enhancing dump import/export capabilities. The primary deliverable is a comprehensive solution that enables users to export OSSelot-compatible reports, reuse existing OSSelot data, and leverage advanced dump functionality with content-based file matching, significantly improving the efficiency of license compliance workflows. Concurrently, the ScanCode agent was re-architected with multiprocessing, delivering substantial performance and stability gains for large-scale scanning operations.
 
-## 3. Problem Statement and Motivation
+## 3. 🔍 Problem Statement and Motivation
 
 ### 3.1 Complexity & Workflow Barriers
 
@@ -37,7 +51,7 @@ Existing FOSSology export functions did not produce OSSelot-compatible reports. 
 
 The ScanCode agent's single-threaded operation created a critical performance bottleneck, especially with large uploads. Furthermore, the FOSSology dump import/export feature suffered from rigid version and naming dependencies, limiting its utility across different FOSSology instances.
 
-## 4. Project Objectives
+## 4. 🎨 Project Objectives
 
 The primary objectives of this project were:
 
@@ -48,7 +62,7 @@ The primary objectives of this project were:
 5.  **Enable Contribution Workflow**: Facilitate users in contributing their FOSSology reports back to the OSSelot project.
 6.  **Comprehensive Testing**: Proper testing to ensure the reliability of all implemented features.
 
-## 5. Technical Implementation
+## 5. 🔧 Technical Implementation
 
 ### 5.1 Core Work Overview
 
@@ -150,14 +164,14 @@ The solution was to replace path-dependent matching with a **content-based match
 
 **Related Pull Request:** [PR #3115](https://github.com/fossology/fossology/pull/3115) - Advanced FOSSology dump enhancement with content-based matching
 
-## 6. Technology Stack
+## 6. 🖼️ Technology Stack
 
 * **Backend:** PHP, Python, PostgreSQL, REST APIs
 * **Frontend:** JavaScript/jQuery, HTML/CSS, AJAX
 * **Integration:** OSSelot REST API, SPDX format specifications
 * **Development:** Git, GitHub, Docker
 
-## 7. Timeline
+## 7. 📅 Timeline
 
 * **Community Bonding (May 2025):** Project planning, codebase exploration, and initial prototyping of OSSelot export.
 * **Phase 1 (June 2025):** Completed OSSelot export functionality and began implementation of the OSSelot reuse interface.
@@ -165,7 +179,7 @@ The solution was to replace path-dependent matching with a **content-based match
 * **Phase 3 (Aug-Sept 2025):** Implemented initial FOSSology dump enhancements, followed by comprehensive testing and bug fixes.
 * **Phase 4 (Oct-Nov 2025):** Bug fixes and resolving issues addressed by mentors, finalizing all features for production readiness.
 
-## 8. Key Achievements
+## 8. 🎆 Key Achievements
 
 ### 8.1 Successfully Delivered Features
 1.  **OSSelot Export Compatibility**: Full implementation of OSSelot-compatible export formats.
@@ -175,19 +189,34 @@ The solution was to replace path-dependent matching with a **content-based match
 5.  **User Experience**: Intuitive interfaces for OSSelot integration.
 
 ### 8.2 Pull Requests and Code Contributions
-* **[PR #3066](https://github.com/fossology/fossology/pull/3066)**: SPDX per-user defaults implementation
-* **[PR #3083](https://github.com/fossology/fossology/pull/3083)**: OSSelot improvements and auto-suggest functionality
-* **[PR #3101](https://github.com/fossology/fossology/pull/3101)**: ScanCode agent multiprocessing, heartbeat, and resource management
-* **[PR #3115](https://github.com/fossology/fossology/pull/3115)**: Advanced FOSSology dump enhancement with content-based file matching
-* **[PR #3143](https://github.com/fossology/fossology/pull/3143)**: User Edit page functionality and UI behavior enhancements
-* Multiple other PRs for FOSSology dump enhancements, null constraints, and data consistency fixes.
+
+<div align="center">
+
+![Contributions](https://img.shields.io/badge/Total%20PRs-6+-brightgreen?style=for-the-badge&logo=git&logoColor=white)
+![Code Lines](https://img.shields.io/badge/Lines%20Added-2000+-blue?style=for-the-badge&logo=codelines&logoColor=white)
+![Languages](https://img.shields.io/badge/Languages-PHP%20|%20Python%20|%20JS-orange?style=for-the-badge&logo=code&logoColor=white)
+
+</div>
+
+* **[PR #3066](https://github.com/fossology/fossology/pull/3066)**: SPDX per-user defaults implementation 
+* **[PR #3083](https://github.com/fossology/fossology/pull/3083)**: OSSelot improvements and auto-suggest functionality 
+* **[PR #3101](https://github.com/fossology/fossology/pull/3101)**: ScanCode agent multiprocessing, heartbeat, and resource management 
+* **[PR #3115](https://github.com/fossology/fossology/pull/3115)**: Advanced FOSSology dump enhancement with content-based file matching 
+* **[PR #3143](https://github.com/fossology/fossology/pull/3143)**: User Edit page functionality and UI behavior enhancements 
+* Multiple other PRs for FOSSology dump enhancements, null constraints, and data consistency fixes. 🛠️
 
 ### 8.3 Testing and Quality Assurance
 A rigorous testing and QA phase (Weeks 15-22) was conducted to ensure production readiness. This included edge-case analysis, performance stress-testing, and user acceptance testing with real-world scenarios. The final weeks were dedicated to stabilization, including REST API refinement (Week 19), fixing data consistency issues (Week 21), and UI/UX polishing (Week 22, PR #3143).
 
-**Detailed Weekly Progress**: Complete weekly reports documenting the project's progress, challenges, and achievements are available at: [https://fossology.github.io/gsoc/docs/2025/osselot/](https://fossology.github.io/gsoc/docs/2025/osselot/)
+**📊 Detailed Weekly Progress**: Complete weekly reports documenting the project's progress, challenges, and achievements are available at: 
 
-## 10. Acknowledgments
+<div align="center">
+
+[![Weekly Reports](https://img.shields.io/badge/📈_Weekly_Reports-Visit_Documentation-purple?style=for-the-badge&logo=gitbook&logoColor=white)](https://fossology.github.io/gsoc/docs/2025/osselot/)
+
+</div>
+
+## 10. 🎉 Acknowledgments
 
 I would like to express my sincere gratitude to:
 
@@ -196,7 +225,7 @@ I would like to express my sincere gratitude to:
 * The entire **FOSSology community** for their support and feedback.
 * The **Google Summer of Code** program for this invaluable opportunity.
 
-## 11. Project Completion
+## 11. 🎈 Project Completion
 
 This GSoC 2025 project successfully achieved all primary objectives and delivered a comprehensive solution that enhances FOSSology's capabilities in several key areas.
 
